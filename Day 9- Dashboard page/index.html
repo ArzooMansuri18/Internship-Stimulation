@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Dashboard Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="menu">
+                <span id="title">My Dash</span>
+                <button>⚙️</button>
+            </div>
+            
+            <ul>
+                <li class="active">🏠<span>Overview</span></li>
+                <li>🧑‍💻<span>Projects</span></li>
+                <li>📊<span>Analytics</span> </li>
+                <li>🎡<span>Settings</span></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header>
+                <h1>Dashboard Overview</h1>
+                <button id="refreshBtn">🔃Refresh Data</button>
+            </header>
+            <!-- Stats Cards -->
+            <section class="stats">
+                <div class="card">
+                    <h3>Active Users</h3>
+                    <p id="users">0</p>
+                </div>
+
+                <div class="card">
+                    <h3>Completed Tasks</h3>
+                    <p id="tasks">0</p>
+                </div>
+
+                <div class="card">
+                    <h3>Revenue</h3>
+                    <p id="revenue">$0</p>
+                </div>
+            </section>
+            <!-- Recent Activities -->
+            <section class="activity">
+                <h2>Recent Activities</h2>
+                <ul id="activityList"></ul>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Navigation Component</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+     <h1>Tab Navigation Page</h1>
+    <div class="tab-container">
+          
+       <div class="tab-header">
+        <button class="tab active" data-tab="home">Home <span>&#x1F3E0;</span></button>
+        <button class="tab" data-tab="about">About <span>&#x1F464;</span></button>
+        <button class="tab" data-tab="services">Services <span>&#x1F4BC;</span></button>
+        <button class="tab" data-tab="contact">Contact <span>&#x1F4DE;</span></button>
+       </div>
+       
+       <div class="tab-content active" id="home">
+            <h2>Welcome Home</h2>
+            <p>This is the home tab content section</p>
+       </div>
+       <div class="tab-content" id="about">
+            <h2>About Us</h2>
+            <p>We are a passionate team building creative web solutions.</p>
+       </div>
+       <div class="tab-content" id="services">
+            <h2>Our Services</h2>
+            <p>We offer web development, UI/UX design, and app solutions.</p>
+       </div>
+       <div class="tab-content" id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: hello@example.com</p>
+       </div>
+
+    </div>
+
+    <!-- &#x1F3E0; = HOME
+          &#x1F464; = ABOUT
+          &#x1F4BC; = SERVICES
+          &#x1F4DE; = CONTACT -->
+</body>
+</html>

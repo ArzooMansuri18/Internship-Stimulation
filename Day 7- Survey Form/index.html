@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form with Conditional Fields</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <form id="surveyForm">
+        <h2>Feedback Survey</h2>
+
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="Enter your age" required>
+        </div>
+
+        <div class="form-group">
+            <label>Are you a student or a professional?</label>
+            <select id="occupation">
+                <option value="">Select</option>
+                <option value="student">Student</option>
+                <option value="professional">Professional</option>
+            </select>
+        </div>
+
+        <div class="form-group hidden" id="studentField">
+            <label>What are you studying?</label>
+            <input type="text" id="studyField" placeholder="Enter your course">
+        </div>
+
+        <div class="form-group">
+            <label for="feedbackType">Type of Feedback:</label>
+            <select id="feedbackType">
+                <option value="">Select</option>
+                <option value="bug">Report a Bug</option>
+                <option value="suggestion">Suggestion</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div class="form-group hidden" id="otherFeedback">
+            <label>Please specify:</label>
+            <input type="text" id="otherText" placeholder="Your feedback type">
+        </div>
+
+        <div class="form-group">
+            <label>Your Message:</label>
+            <textarea id="message" rows="4" placeholder="Write here..."></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    min-height: 100vh;
+}
+
+.tab-container{
+    background: #fff;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+@media (max-width: 495px) {
+    .tab-container{
+        display: flex;
+    }
+
+    .tab-header{
+        flex-direction: column;
+    }
+}
+
+.tab-header{
+    display: flex;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab{
+    flex: 1;
+    padding: 15px;
+    background: #f8f8f8;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tab span{
+    padding-bottom: 0.3rem;
+}
+
+.tab.active{
+    background: #0078ff;
+    color: #fff;
+    animation: Underline 0.7s ease forwards;
+}
+
+@keyframes Underline {
+    to{
+        text-decoration: underline;
+    }
+}
+
+.tab-content{
+    display: none;
+    padding: 20px;
+    animation: fadeIn 0.3s ease;
+}
+
+.tab-content h2{
+    margin-bottom: 0.7rem;
+}
+
+.tab-content.active{
+    display: block;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(5px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
