@@ -47,7 +47,7 @@
 <h2>Custom Dropdown Menu</h2>
 
 <ul>
-    <li>Stylish dropdown replacing default <select> </li>
+    <li>Stylish dropdown replacing default </li>
     <li>Click outside to close</li>
     <li>Update selected option dynamically</li>
 </ul>
