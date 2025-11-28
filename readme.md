@@ -110,120 +110,116 @@
 
 <h2>Progress Bar Animation</h2>
 
-<li>Animated progress bar filling 0% → 100%</li>
-
-<li>Shows percentage dynamically</li>
-
-<li>Can trigger via button or auto-start</li>
+<ul>
+    <li>Animated progress bar filling 0% → 100%</li>
+    <li>Shows percentage dynamically</li>
+    <li>Can trigger via button or auto-start</li>
+</ul>
 
 <h2>Mouse Hover Portfolio Card</h2>
 
-<li>Interactive card with hover animation</li>
-
-<li>Text/content revealed on hover</li>
-
-<li>Perfect for portfolios</li>
+<ul>
+    <li>Interactive card with hover animation</li>
+    <li>Text/content revealed on hover</li>
+    <li>Perfect for portfolios</li>
+</ul>
 
 <h2>Dynamic News Ticker</h2>
 
-<li>Continuously scrolling text</li>
-
-<li>Adjustable speed</li>
-
-<li>Can fetch news dynamically</li>
+<ul>
+    <li>Continuously scrolling text</li>
+    <li>Adjustable speed</li>
+    <li>Can fetch news dynamically</li>
+</ul>
 
 <h2>Landing Page Prototype</h2>
 
-<li>Hero section, features, CTA button, footer</li>
-
-<li>Responsive layout with modern UI</li>
-
-<li>Smooth hover/button animations</li>
+<ul>
+    <li>Hero section, features, CTA button, footer</li>
+    <li>Responsive layout with modern UI</li>
+    <li>Smooth hover/button animations</li>
+</ul>
 
 <h2>BMI Calculator</h2>
 
-<li>Calculate BMI from height & weight</li>
-
-<li>Shows category (Underweight, Normal, Overweight, Obese)</li>
-
-<li>Responsive and user-friendly</li>
+<ul>
+    <li>Calculate BMI from height & weight</li>
+    <li>Shows category (Underweight, Normal, Overweight, Obese)</li>
+    <li>Responsive and user-friendly</li>
+</ul>
 
 <h2>Tip Calculator</h2>
 
-<li>Calculates tip and total per person</li>
-
-<li>Real-time updates</li>
-
-<li>Error handling for invalid inputs</li>
+<ul>
+    <li>Calculates tip and total per person</li>
+    <li>Real-time updates</li>
+    <li>Error handling for invalid inputs</li>
+</ul>
 
 <h2>Weather App</h2>
 
-<li>Search by city</li>
-
-<li>Displays temperature, humidity, wind speed, and condition</li>
-
-<li>Fetches real-time data from weather API</li>
+<ul>
+    <li>Search by city</li>
+    <li>Displays temperature, humidity, wind speed, and condition</li>
+    <li>Fetches real-time data from weather API</li>
+</ul>
 
 <h2>Digital Quiz</h2>
 
-<li>Multiple-choice questions</li>
-
-<li>Shows score at the end</li>
-
-<li>Restart quiz functionality</li>
+<ul>
+    <li>Multiple-choice questions</li>
+    <li>Shows score at the end</li>
+    <li>Restart quiz functionality</li>
+</ul>
 
 <h2>Portfolio Page</h2>
 
-<li>Personal portfolio layout with sections: Home, About, Projects, Contact</li>
-
-<li>Responsive and visually appealing</li>
-
-<li>Extended portfolio layout or additional sections</li>
-
-<li>Interactive UI components</li>
+<ul>
+    <li>Personal portfolio layout with sections: Home, About, Projects, Contact</li>
+    <li>Responsive and visually appealing</li>
+    <li>Extended portfolio layout or additional sections</li>
+    <li>Interactive UI components</li>
+</ul>
 
 <h2>Product Page</h2>
 
-<li>Showcases product with images, options, pricing</li>
-
-<li>Interactive selection and Add to Cart button</li>
-
-<li>Responsive design</li>
+<ul>
+    <li>Showcases product with images, options, pricing</li>
+    <li>Interactive selection and Add to Cart button</li>
+    <li>Responsive design</li>
+</ul>
 
 <h2>Drag & Drop Element</h2>
 
-<li>Drag items between containers</li>
-
-<li>Smooth drag-and-drop functionality</li>
-
-<li>Visual feedback while dragging</li>
+<ul>
+    <li>Drag items between containers</li>
+    <li>Smooth drag-and-drop functionality</li>
+    <li>Visual feedback while dragging</li>
+</ul>
 
 <h2>Technologies Used Overall</h2>
 
-<li>HTML5 → Structure and layout of all projects</li>
-
-<li>CSS3 → Styling, animations, responsiveness</li>
-
-<li>JavaScript → DOM manipulation, events, interactivity</li>
+<ul>
+    <li>HTML5 → Structure and layout of all projects</li>
+    <li>CSS3 → Styling, animations, responsiveness</li>
+    <li>JavaScript → DOM manipulation, events, interactivity</li>
+</ul>
 
 <h2>How to Run</h2>
 
-<li>Clone the repository:
-
-git clone <repository-url></li>
-
-<li>Open any project folder</li>
-
-<li>Open index.html in a browser</li>
-
-<li>No server required — pure frontend projects.</li>
+<ol>
+    <li>Clone the repository:
+    <p>git clone "repository-url"</p> </li>
+    <li>Open any project folder</li>
+    <li>Open index.html in a browser</li>
+    <li>No server required — pure frontend projects.</li>
+</ol>
 
 <h2>Future Improvements</h2>
 
-<li>Store user data using localStorage</li>
-
-<li>Fetch data from APIs where applicable</li>
-
-<li>Add light/dark mode toggle</li>
-
-<li>Enhance animations & interactivity</li>
+<ul>
+    <li>Store user data using localStorage</li>
+    <li>Fetch data from APIs where applicable</li>
+    <li>Add light/dark mode toggle</li>
+    <li>Enhance animations & interactivity</li>
+</ul>
