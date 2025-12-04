@@ -1,44 +1,46 @@
 <h1>Product Page</h1>
 
-<p>This project is a simple <b>FAQ section</b> built using <b>HTML, CSS and JavaScript.</b> When the user clicks any question, its answer opens smoothly while closing the previously opened one - making the experience clean and user-friendly.</p>
+<p>This project is a simple <b>Product Page UI</b> created using <b>HTML, CSS and JavaScript.</b> It showcases a product with images, description, pricing, and an interactive section for selecting product options.</p>
 
 <h2>Features</h2>
 
 <ul>
-    <li>Click to expand question</li>
-    <li>Auto close other answers when a new one is opened</li>
-    <li>Smooth open/close animation</li>
-    <li>Pure HTML, CSS, JS (no framework)</li>
-    <li>Responsive on mobile screen</li>
+    <li>Product images with thumbnails or main display</li>
+    <li>Product title, description, and pricing</li>
+    <li>Option selector (size, color, quantity)</li>
+    <li>Add to Cart button (can be extended with JS logic)</li>
+    <li>Responsive and clean layout</li>
 </ul>
 
 <h2>Technologies Used</h2>
 
 <ul>
-    <li>HTML -> Structure of questions and answers</li>
-    <li>CSS -> Styling + accordion animation</li>
-    <li>JavaScript -> Toggle logic for opening/closing</li>
+    <li>HTML -> Structure: product image, details, options</li>
+    <li>CSS -> Styling: layout, buttons, image hover, responsive design</li>
+    <li>JavaScript -> Optional interactivity: image switch, quantity update</li>
 </ul>
 
 <h2>How It Works</h2>
 
 <ul>
-    <li>Each FAQ item has a question + hidden answer</li>
-    <li>When you click the question, JS adds or removes the 'active' class</li>
-    <li>That class controls the visibility of the answer through CSS height transition</li>
+    <li>Main product image displayed prominently</li>
+    <li>Thumbnails or option selection changes main image dynamically using JS</li>
+    <li>Quantity input updates total price (If implemented)</li>
+    <li>Add to Cart button can trigger JS event for future shopping cart logic</li>
 </ul>
 
 <h2>Future Improvements</h2>
 
 <ul>
-    <li>Add icons (+ and -)</li>
-    <li>Support multiple themes (light/dark)</li>
-    <li>Fetch FAQ content from a JSON file</li>
+    <li>Implement full shopping cart functionality</li>
+    <li>Fetch product details dynamically</li>
+    <li>Add rating and reviews section</li>
+    <li>Add wishlist/favourite button</li>
 </ul>
 
 <h2>Folder Structure</h2>
 
-<pre>/faq-accordion
+<pre>/product-page
 |->index.html
 |->style.css
 |->main.js</pre>

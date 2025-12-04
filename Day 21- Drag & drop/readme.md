@@ -1,44 +1,50 @@
-<h1>FAQ Accordion Component</h1>
+<h1>Drag & Drop Element</h1>
 
-<p>This project is a simple <b>FAQ section</b> built using <b>HTML, CSS and JavaScript.</b> When the user clicks any question, its answer opens smoothly while closing the previously opened one - making the experience clean and user-friendly.</p>
+<p>This project is a simple <b>Drag & Drop UI</b> created using <b>HTML, CSS and JavaScript.</b> It allows users to drag an element from one container and drop it into another, demonstrating interactive UI behaviour commonly used in dashboards and kanban boards</p>
 
 <h2>Features</h2>
 
 <ul>
-    <li>Click to expand question</li>
-    <li>Auto close other answers when a new one is opened</li>
-    <li>Smooth open/close animation</li>
-    <li>Pure HTML, CSS, JS (no framework)</li>
-    <li>Responsive on mobile screen</li>
+    <li>Drag elements between boxes/containers</li>
+    <li>Smooth drag-and-drop functionality</li>
+    <li>Visual feedback while dragging</li>
+    <li>Clean and responsive design</li>
+    <li>Pure vanilla JavaScript (no libraries)</li>
 </ul>
 
 <h2>Technologies Used</h2>
 
 <ul>
-    <li>HTML -> Structure of questions and answers</li>
-    <li>CSS -> Styling + accordion animation</li>
-    <li>JavaScript -> Toggle logic for opening/closing</li>
+    <li>HTML -> Structure: containers and draggable items</li>
+    <li>CSS -> Styling: boxes, draggable items, hover effects</li>
+    <li>JavaScript -> Drag-and-drop logic, event handling (dragstart, dragover, drop)</li>
 </ul>
 
 <h2>How It Works</h2>
 
 <ul>
-    <li>Each FAQ item has a question + hidden answer</li>
-    <li>When you click the question, JS adds or removes the 'active' class</li>
-    <li>That class controls the visibility of the answer through CSS height transition</li>
+    <li>Elements are made draggable using draggable = "ture"</li>
+    <li>Javascript listens to events: 
+    <ul>
+        <li>dragstart -> store the element being dragged</li>
+        <li>dragover -> allow the drop</li>
+        <li>drop -> append the dragged element to the target container</li>
+    </ul> </li>
+    <li>CSS :hover and .hidden class provide visual feedback during drag</li>
 </ul>
 
 <h2>Future Improvements</h2>
 
 <ul>
-    <li>Add icons (+ and -)</li>
-    <li>Support multiple themes (light/dark)</li>
-    <li>Fetch FAQ content from a JSON file</li>
+    <li>Support multiple draggable items</li>
+    <li>Snap-to-grid layout</li>
+    <li>Save element positions in localStorage</li>
+    <li>Add animation when element is dropped</li>
 </ul>
 
 <h2>Folder Structure</h2>
 
-<pre>/faq-accordion
+<pre>/drag-and-drop
 |->index.html
 |->style.css
 |->main.js</pre>

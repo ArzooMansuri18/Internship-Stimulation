@@ -1,6 +1,6 @@
 <h1>Portfolio Page</h1>
 
-<p>This project is a simple <b>FAQ section</b> built using <b>HTML, CSS and JavaScript.</b> When the user clicks any question, its answer opens smoothly while closing the previously opened one - making the experience clean and user-friendly.</p>
+<p>This project is a simple <b>Portfolio Page</b> built using <b>HTML, CSS and JavaScript.</b> When the user clicks any question, its answer opens smoothly while closing the previously opened one - making the experience clean and user-friendly.</p>
 
 <h2>Features</h2>
 
