@@ -1,6 +1,6 @@
 <h1>Frontend Mini Projects Internship</h1>
 
-<p>This repository contains 21 frontend mini projects built using HTML, CSS, and JavaScript during a 1-month internship stimulation program.<br> Each project focuses on UI, interactivity, and real-world functionality, designed to improve core frontend skills.</p>
+<p>This repository contains 20 frontend mini projects built using HTML, CSS, and JavaScript during a 1-month internship stimulation program.<br> Each project focuses on UI, interactivity, and real-world functionality, designed to improve core frontend skills.</p>
 
 <h2>Table Of Contents</h2>
 
@@ -170,15 +170,6 @@
     <li>Multiple-choice questions</li>
     <li>Shows score at the end</li>
     <li>Restart quiz functionality</li>
-</ul>
-
-<h2>Portfolio Page</h2>
-
-<ul>
-    <li>Personal portfolio layout with sections: Home, About, Projects, Contact</li>
-    <li>Responsive and visually appealing</li>
-    <li>Extended portfolio layout or additional sections</li>
-    <li>Interactive UI components</li>
 </ul>
 
 <h2>Product Page</h2>
