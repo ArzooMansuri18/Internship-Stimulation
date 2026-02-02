@@ -1,7 +1,6 @@
 <h1>Password Strength Checker</h1>
 
 <p>This project is a <b>Password Strength Indicator</b> built using <b>HTML, CSS and JavaScript.</b></p>
-
 <p>It checks the entered password in real-time and shows how strong the password is based on different rules such as length, numbers, uppercase, lowercase, special characters, etc.</p>
 
 <h2>Features</h2>

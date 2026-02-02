@@ -1,6 +1,6 @@
 <h1>Tab Navigation Component</h1>
 
-<p>This project is a simple and modern custom <b>Drop-down Menu UI</b> built using <b>HTML, CSS and JavaScript.</b>It replaces the boring default browser <select> style with a stylish, interactive drop-down element.</p>
+<p>This project is a simple and modern custom <b>Drop-down Menu UI</b> built using <b>HTML, CSS and JavaScript.</b>It replaces the boring default browser "select" style with a stylish, interactive drop-down element.</p>
 
 <h2>Features</h2>
 

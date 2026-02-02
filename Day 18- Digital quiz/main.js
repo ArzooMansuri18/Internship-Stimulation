@@ -84,7 +84,7 @@ submitBtn.addEventListener("click", () => {
             loadQuiz();
         } else {
             quiz.innerHTML = `<h2>You answered ${score}/${quizData.length} questions correctly🥳</h2>
-            <button onclick="reset()">Try Again</button>`;
+            <button id="reset">Try Again</button>`;
         }
     } else {
         alert("Please select the option");

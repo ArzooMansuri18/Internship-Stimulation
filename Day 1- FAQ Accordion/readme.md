@@ -1,6 +1,6 @@
 <h1>FAQ Accordion Component</h1>
 
-<p>This project is a simple <b>FAQ section</b> built using <b>HTML, CSS and JavaScript.</b> When the user clicks any question, its answer opens smoothly while closing the previously opened one - making the experience clean and user-friendly.</p>
+<p>This project is a simple <b>FAQ section</b> built using <b>HTML, CSS and JavaScript.</b> When the user clicks any question, its answer opens smoothly while closing the previously opened one-making the experience clean and user-friendly.</p>
 
 <h2>Features</h2>
 
@@ -45,6 +45,6 @@
 
 <h2>How to Run</h2>
 
-<p>Just open 'index.html' in any browser -no server required.</p>
+<p>Just open index.html in any browser -no server required.</p>
 
 <h2>Author:- Arzoo Mansuri</h2>

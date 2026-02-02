@@ -30,163 +30,85 @@
 
 <h2>FAQ Accordion</h2>
 
-<ul>
-    <li>Clickable questions reveal answers</li>
-    <li>Smooth open/close animation</li>
-    <li>Pure HTML/CSS/JS</li>
-</ul>
+<p>This project is a simple <b>FAQ section</b> built using <b>HTML, CSS and JavaScript.</b> When the user clicks any question, its answer opens smoothly while closing the previously opened one-making the experience clean and user-friendly.</p>
 
 <h2>Tab Navigation Component</h2>
 
-<ul>
-    <li>Switch between tabs without page reload</li>
-    <li>Highlight active tab</li>
-    <li>Smooth transition</li>
-</ul>
+<p>This project is a simple and reusable <b>Tab Navigation UI</b> built using <b>HTML, CSS and JavaScript.</b> Users can click on different tabs and the active tab will show its related content while hiding the rest.</p>
 
 <h2>Custom Dropdown Menu</h2>
 
-<ul>
-    <li>Stylish dropdown replacing default</li>
-    <li>Click outside to close</li>
-    <li>Update selected option dynamically</li>
-</ul>
+<p>This project is a simple and modern custom <b>Drop-down Menu UI</b> built using <b>HTML, CSS and JavaScript.</b>It replaces the boring default browser "select" style with a stylish, interactive drop-down element.</p>
 
 <h2>Color Picker Tool</h2>
 
-<ul>
-    <li>Pick a color and see live preview</li>
-    <li>Show hex code dynamically</li>
-    <li>Minimal UI</li>
-</ul>
+<p>This project is a simple and interactive <b>Color Picker Tool</b> built using <b>HTML, CSS and JavaScript.</b>It allows the user to pick a color using an input color picker and instantly see the selected color applied to a preview box.</p>
 
 <h2>Password Strength Indicator</h2>
 
-<ul>
-    <li>Checks password strength in real-time</li>
-    <li>Shows Weak / Medium / Strong</li>
-    <li>Visual cues using colored bars</li>
-</ul>
+<p>This project is a <b>Password Strength Indicator</b> built using <b>HTML, CSS and JavaScript.</b></p>
+<p>It checks the entered password in real-time and shows how strong the password is based on different rules such as length, numbers, uppercase, lowercase, special characters, etc.</p>
 
 <h2>Real-time Form Validation</h2>
 
-<ul>
-    <li>Validates input live (name, email, password, etc.)</li>
-    <li>Prevents invalid subissions</li>
-    <li>Shows error messages instantly</li>
-</ul>
+<p>This project is a <b>real-time form validation system</b> built using <b>HTML, CSS and JavaScript.</b> It validates inputs such as name, email, password etc. while the user is typing -not after clicking submit.</p>
 
 <h2>Survey From with Conditional Fields</h2>
 
-<ul>
-    <li>Shows additional fields based on user selection</li>
-    <li>Clean and Responsive</li>
-    <li>Ideal for smart survey forms</li>
-</ul>
+<p>This project is a dynamic <b>Survey Form</b> built using <b>HTML, CSS and JavaScript,</b> where some questions appear only if the user selects a specific option.</p>
+<p>Example: If user selects "Yes" to a question -> extr fields will appear. If user selects "No" -> those extra fields stay hidden.</p>
 
 <h2>Dynamic To-Do List</h2>
 
-<ul>
-    <li>Add, complete, delete tasks dynamically</li>
-    <li>Real-time DOM updates</li>
-    <li>Beginner-friendly JS logic</li>
-</ul>
+<p>This project is a fully functional <b>To-Do List Application</b> built using <b>HTML, CSS and JavaScript.</b> Users can add tasks, mark them as completed, and delete tasks -everything updates dynamically without page reload.</p>
 
 <h2>Mini Dashboard Page</h2>
 
-<ul>
-    <li>UI dashboard with cards and stats</li>
-    <li>Responsive grid/flex layout</li>
-    <li>Can be extended to fetch API data</li>
-</ul>
+<p>This project is a simple <b>Dashboard UI</b> built using <b>HTML, CSS and JavaScript.</b> It displays small data cards, quick stats, and sections that give a feel of an admin dashboard -in a clean modren layout.</p>
 
 <h2>Sliding Image Gallery</h2>
 
-<ul>
-    <li>Image slider/carousel with next/previous buttons</li>
-    <li>Smooth transitions</li>
-    <li>Fully responsive</li>
-</ul>
+<p>This project is a smooth <b>Image Slider/Carousal</b> created using <b>HTML, CSS and JavaScript.</b> It allows users to navigate through multiple images using next and previous buttons, providing an elegant slideshow effect.</p>
 
 <h2>Progress Bar Animation</h2>
 
-<ul>
-    <li>Animated progress bar filling 0% → 100%</li>
-    <li>Shows percentage dynamically</li>
-    <li>Can trigger via button or auto-start</li>
-</ul>
+<p>This project is a smooth and interactive <b>Progress Bar Animation</b> created using <b>HTML, CSS and JavaScript.</b> The bar fills up from 0% to 100% with animation when a button is clicked or automatically on page load.</p>
 
 <h2>Mouse Hover Portfolio Card</h2>
 
-<ul>
-    <li>Interactive card with hover animation</li>
-    <li>Text/content revealed on hover</li>
-    <li>Perfect for portfolios</li>
-</ul>
+<p>This project is a stylish <b>Portfolio Card with Hover Effects</b> made with <b>HTML, CSS and JavaScript.</b> When the user hovers over the card, smooth animations reveal additional details, creating a modern interactive UI component.</p>
 
 <h2>Dynamic News Ticker</h2>
 
-<ul>
-    <li>Continuously scrolling text</li>
-    <li>Adjustable speed</li>
-    <li>Can fetch news dynamically</li>
-</ul>
+<p>This project is a smooth <b>News Ticker</b> built using <b>HTML, CSS and JavaScript.</b> The text scrolls from right to left continuously, just like breaking-news tickers seen on news channels and websites.</p>
 
 <h2>Landing Page Prototype</h2>
 
-<ul>
-    <li>Hero section, features, CTA button, footer</li>
-    <li>Responsive layout with modern UI</li>
-    <li>Smooth hover/button animations</li>
-</ul>
+<p>This project is a clean and modern <b>Landing Page Prototype</b> created using <b>HTML, CSS and JavaScript.</b> It focuses on layout, spacing, typography, and visual hierarchy - exactly what real UI landing pages follow.</p>
 
 <h2>BMI Calculator</h2>
 
-<ul>
-    <li>Calculate BMI from height & weight</li>
-    <li>Shows category (Underweight, Normal, Overweight, Obese)</li>
-    <li>Responsive and user-friendly</li>
-</ul>
+<p>This project is a simple and interactive <b>BMI Calculator</b> built using <b>HTML, CSS and JavaScript.</b> Users can enter their height and weight, and the calculator instantly displays their BMI along with category results (Underweight, Normal, Overweight, Obese).</p>
 
 <h2>Tip Calculator</h2>
 
-<ul>
-    <li>Calculates tip and total per person</li>
-    <li>Real-time updates</li>
-    <li>Error handling for invalid inputs</li>
-</ul>
+<p>This project is a lightweight and interactive <b>Tip Calculator</b> built using <b>HTML, CSS and JavaScript.</b> It helps users calculate the tip amount and total bill per person - useful for restaurants, cafes, and group outings.</p>
 
 <h2>Weather App</h2>
 
-<ul>
-    <li>Search by city</li>
-    <li>Displays temperature, humidity, wind speed, and condition</li>
-    <li>Fetches real-time data from weather API</li>
-</ul>
+<p>This project is a functional <b>Weather Application</b> built using <b>HTML, CSS and JavaScript.</b> Users can search for any city, and the app displays temperature, weather conditions, humidity, and wind speed using real-time data from a weather API.</p>
 
 <h2>Digital Quiz</h2>
 
-<ul>
-    <li>Multiple-choice questions</li>
-    <li>Shows score at the end</li>
-    <li>Restart quiz functionality</li>
-</ul>
+<p>This project is a fully functional <b>Digital Quiz Application</b> built using <b>HTML, CSS and JavaScript.</b> Users can answer multiple-choice questions, see their score at the end, and restart the quiz anytime.</p>
 
 <h2>Product Page</h2>
 
-<ul>
-    <li>Showcases product with images, options, pricing</li>
-    <li>Interactive selection and Add to Cart button</li>
-    <li>Responsive design</li>
-</ul>
+<p>This project is a simple <b>Product Page UI</b> created using <b>HTML, CSS and JavaScript.</b> It showcases a product with images, description, pricing, and an interactive section for selecting product options.</p>
 
 <h2>Drag & Drop Element</h2>
 
-<ul>
-    <li>Drag items between containers</li>
-    <li>Smooth drag-and-drop functionality</li>
-    <li>Visual feedback while dragging</li>
-</ul>
+<p>This project is a simple <b>Drag & Drop UI</b> created using <b>HTML, CSS and JavaScript.</b> It allows users to drag an element from one container and drop it into another, demonstrating interactive UI behaviour commonly used in dashboards and kanban boards</p>
 
 <h2>Technologies Used Overall</h2>
 

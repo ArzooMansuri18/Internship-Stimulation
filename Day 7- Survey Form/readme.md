@@ -1,7 +1,6 @@
 <h1>Survey Form with Conditional Fields</h1>
 
 <p>This project is a dynamic <b>Survey Form</b> built using <b>HTML, CSS and JavaScript,</b> where some questions appear only if the user selects a specific option.</p>
-
 <p>Example: If user selects "Yes" to a question -> extr fields will appear. If user selects "No" -> those extra fields stay hidden.</p>
 
 <h2>Features</h2>

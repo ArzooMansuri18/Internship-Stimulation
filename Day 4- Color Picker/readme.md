@@ -1,4 +1,4 @@
-<h1>Tab Navigation Component</h1>
+<h1>Color Picker Tool</h1>
 
 <p>This project is a simple and interactive <b>Color Picker Tool</b> built using <b>HTML, CSS and JavaScript.</b>It allows the user to pick a color using an input color picker and instantly see the selected color applied to a preview box.</p>
 

@@ -12,6 +12,8 @@ body{
     align-items: center;
     gap: 30px;
     background: linear-gradient(120deg, #89f7fe, #66a6ff);
+    /* background-image: url("anime-sun.jpg");
+    background-size: cover; */
     font-family: sans-serif;
 }
 
